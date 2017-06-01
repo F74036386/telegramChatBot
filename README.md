@@ -1,3 +1,8 @@
+##start
+python app.py
+
+#fsm
+show-fsm.png
 
 ## Usage
 The initial state is set to `user`.
