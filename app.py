@@ -8,7 +8,7 @@ from fsm import TocMachine
 
 
 API_TOKEN = '397853694:AAHhPvnkGoFFYeI_jRlzPzAjab90gUM7S-c'
-WEBHOOK_URL = 'https://930490b0.ngrok.io/hook'
+WEBHOOK_URL = 'https://930490b0.ngrok.io/show-fsm'
 
 app = Flask(__name__)
 bot = telegram.Bot(token=API_TOKEN)
@@ -69,7 +69,7 @@ machine = TocMachine(
         {
             'trigger': 'go_back',
             'source': [
-                'state1',
+#                'state1',
 #                'state2',
 				'cash',
 				'credit'
